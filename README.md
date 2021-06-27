@@ -18,6 +18,6 @@ This is perhaps some of the worst python I have ever written, I was in a rush to
 Also as another note, I only added the engineering course prefixes since I was in a rush so if you want other course prefixes just go to line 4 and add them to the set. 
 
 # Images
-![Highlhting Text on Acorn](https://ibb.co/J3rrxCP)
-![Example output](https://ibb.co/VWB3wB8)
+![Highlhting Text on Acorn](https://i.ibb.co/LN99Qvf/Screen-Shot-2021-06-27-at-1-33-57-PM.png)
+![Example output](https://i.ibb.co/HgrBjsK/Screen-Shot-2021-06-27-at-2-10-59-PM.png)
 
