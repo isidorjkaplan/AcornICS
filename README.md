@@ -16,3 +16,8 @@ This is a quick and easy python script that allows you to copy/paste the enrollm
 This is perhaps some of the worst python I have ever written, I was in a rush to make my timetable on the weekend. If anyone improves the script please feel free to make amendments and pull request or fork. 
 
 Also as another note, I only added the engineering course prefixes since I was in a rush so if you want other course prefixes just go to line 4 and add them to the set. 
+
+# Images
+![Highlhting Text on Acorn](https://ibb.co/J3rrxCP)
+![Example output](https://ibb.co/VWB3wB8)
+
