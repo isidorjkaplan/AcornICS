@@ -41,6 +41,8 @@ def get_all_events():
     event_type = None
     course_name = None
 
+    event_strings = set()
+
     for line_val in fin:
         line = line_val[:-1] #Get rid of \n
         code = line[:3]
@@ -64,8 +66,13 @@ def get_all_events():
                 e.end = day_str + " " + parse_time(vals[3])
                 e.name = course_code + " " + event_type
                 e.description = course_name
+                event_string = course_code + " " + event_type + " at " + line
+                if event_string in event_strings:
+                    print("Aborting event duplicate: " + event_string)
+                    continue
                 events.append(e)
-                print("Found " + course_code + " " + event_type + " at " + line)
+                event_strings.add(event_string)
+                print("Found " + event_string)
     return events
 
 def main():
