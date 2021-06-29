@@ -10,7 +10,7 @@ This is a quick and easy python script that allows you to copy/paste the enrollm
 4. Open "paste.txt" and paste the contents you copied from acorn
 5. Run the script with "python3 main.py" while in the main folder for this project
 6. Take the resulting timetable.ics and paste it into an online .ics viewer such as https://larrybolt.github.io/online-ics-feed-viewer/ 
-7. Check for conflicts, adjust, and repeat until your happy
+7. Check for conflicts, adjust, and repeat until you're happy
 
 # Notes
 This is perhaps some of the worst python I have ever written, I was in a rush to make my timetable on the weekend. If anyone improves the script please feel free to make amendments and pull request or fork. 
