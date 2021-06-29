@@ -1,7 +1,7 @@
 
 from ics import Calendar, Event
 
-COURSE_PREFIXES = {'ECE', 'APS', 'ENV', 'SOC'}
+COURSE_PREFIXES = {'ECE', 'APS', 'ENV', 'SOC', 'JRE', 'CSC'}
 EVENT_TYPES = {'LEC', 'PRA', 'TUT'}
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
